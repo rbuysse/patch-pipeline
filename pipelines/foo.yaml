@@ -1,0 +1,20 @@
+---
+spec:
+  tasks:
+    - name: a
+      taskRef:
+        params:
+          - name: pathInRepo
+            value: tasks/a.yaml
+    - name: b
+      taskRef:
+        params:
+          - name: pathInRepo
+            value: tasks/b.yaml
+    - name: c
+      taskRef:
+        params:
+          - name: pathInRepo
+            value: tasks/c.yaml
+
+
